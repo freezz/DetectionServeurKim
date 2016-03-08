@@ -57,7 +57,7 @@ if (Meteor.isServer) {
                                     if(ks3 == 0){
                                         console.log("Envoi SMS : Ks3 disponible !!");
 
-                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=20777193&pass=EUQPi5DWHwQ4nQ&msg=Ks3%20Disponible%20!");
+                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=ooo&pass=oooo&msg=Ks3%20Disponible%20!");
                                         ks3 = 1;
                                     }
 
@@ -67,7 +67,7 @@ if (Meteor.isServer) {
 
                                         console.log("Envoi SMS : Ks3 non disponible !!");
 
-                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=20777193&pass=EUQPi5DWHwQ4nQ&msg=Ks3%20plus%20disponible%20");
+                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=ooo&pass=oooo&msg=Ks3%20plus%20disponible%20");
                                         ks3 = 0;
                                     }
 
@@ -79,7 +79,7 @@ if (Meteor.isServer) {
 
                                         console.log("Envoi SMS : Ks2 disponible !!");
 
-                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=20777193&pass=EUQPi5DWHwQ4nQ&msg=Ks2%20Disponible%20!");
+                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=ooo&pass=oooo&msg=Ks2%20Disponible%20!");
                                         ks2 = 1;
                                     }
 
@@ -89,7 +89,7 @@ if (Meteor.isServer) {
 
                                         console.log("Envoi SMS : Ks2 disponible !!");
 
-                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=20777193&pass=EUQPi5DWHwQ4nQ&msg=Ks2%20plus%20disponible%20");
+                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=ooo&pass=oooo&msg=Ks2%20plus%20disponible%20");
                                         ks2 = 0;
                                     }
 
@@ -101,7 +101,7 @@ if (Meteor.isServer) {
 
                                         console.log("Envoi SMS : Ks1 disponible !!");
 
-                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=20777193&pass=EUQPi5DWHwQ4nQ&msg=Ks1%20Disponible%20!");
+                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=ooo&pass=oooo&msg=Ks1%20Disponible%20!");
                                         ks1 = 1;
                                     }
 
@@ -110,7 +110,7 @@ if (Meteor.isServer) {
                                     if(ks1 == 1){
                                         console.log("Envoi SMS : Ks1 disponible !!");
 
-                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=20777193&pass=EUQPi5DWHwQ4nQ&msg=Ks1%20plus%20disponible%20");
+                                        serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=ooo&pass=oooo&msg=Ks1%20plus%20disponible%20");
                                         ks1 = 0;
                                     }
 
@@ -132,7 +132,7 @@ if (Meteor.isServer) {
 
               _timeServ = (new Date).getMinutes();
               console.log("Envoi SMS : Serveur Actif");
-              serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=20777193&pass=EUQPi5DWHwQ4nQ&msg=Serveur%20Actif%20!");
+              serv = Meteor.http.call("GET", "https://smsapi.free-mobile.fr/sendmsg?user=ooo&pass=oooo&msg=Serveur%20Actif%20!");
 
 
           }
